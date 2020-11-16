@@ -17,5 +17,10 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
+@bot.command()
+async def gilgamesh(ctx):
+    await ctx.send('人類最古の物語『ギルガメシュ叙事詩』に記された王。 真名は古代メソポタミア文明における、シュメール初期王朝時代のウルク第1王朝の第五代王「ギルガメッシュ」。')
+
+
 
 bot.run(token)
